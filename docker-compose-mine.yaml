@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   bolt-ai:
-    image: ${DOCKER_REGISTRY}/bolt-ai:${DOCKER_TAG:-latest}
+    image: bolt-ai:production
     build: 
       context: .
       dockerfile: Dockerfile-mine
